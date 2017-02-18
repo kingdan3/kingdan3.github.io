@@ -5867,13 +5867,14 @@ button.close {
   overflow: hidden;
 }
 .modal {
+
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: 1050;
-  display: none;
+  display:none;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   outline: 0;
@@ -5945,6 +5946,7 @@ button.close {
 .modal-body {
   position: relative;
   padding: 15px;
+
 }
 .modal-footer {
   padding: 15px;
